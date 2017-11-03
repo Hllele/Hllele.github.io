@@ -82,7 +82,7 @@
 <meta name="description" content="Just do it! Just do it!">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Just do it!">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:url" content="http://yoursite.com/tags/搭建博客/index.html">
 <meta property="og:site_name" content="Just do it!">
 <meta property="og:description" content="Just do it! Just do it!">
 <meta property="og:locale" content="zh-Hans">
@@ -118,13 +118,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/tags/搭建博客/"/>
 
 
 
 
 
-  <title>Just do it!</title>
+  <title>标签: 搭建博客 | Just do it!</title>
   
 
 
@@ -143,8 +143,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -237,153 +236,53 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
-    
+
+  
+  
+  
+  <div class="post-block tag">
+
+    <div id="posts" class="posts-collapse">
+      <div class="collection-title">
+        <h1>搭建博客<small>标签</small>
+        </h1>
+      </div>
+
       
-
-  
-
-  
-  
-  
+        
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/11/03/hexo+git+next主题搭建个人博客/">
+    <header class="post-header">
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="卡拉维德诺科">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="http://oyokglrrx.bkt.clouddn.com/dragon.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Just do it!">
-    </span>
-
-    
-      <header class="post-header">
-
+      <h2 class="post-title">
         
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/11/03/hexo+git+next主题搭建个人博客/" itemprop="url">hexo + github + git 搭建个人博客</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
+            <a class="post-title-link" href="/2017/11/03/hexo+git+next主题搭建个人博客/" itemprop="url">
               
-                <span class="post-meta-item-text">发表于</span>
+                <span itemprop="name">hexo + github + git 搭建个人博客</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-11-03T14:24:33+08:00">
-                2017-11-03
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
+            </a>
         
-          
-            <h1 align="center">hexo + github + git 搭建个人博客</h1> 
+      </h2>
 
-<ol>
-<li>git下载安装和配置环境</li>
-<li>node.js下载安装</li>
-<li>github账户申请和配置</li>
-<li>hexo安装和配置</li>
-<li>hexo和github page建立关联</li>
-</ol>
-<p>(以下全是win7 64位版安装过程)</p>
-<h2 id="git下载安装"><a href="#git下载安装" class="headerlink" title="git下载安装"></a>git下载安装</h2><p>####git下载安装####<br><img src="http://oyokglrrx.bkt.clouddn.com/Git-install.png" alt=""></p>
-<p>####git安装界面####<br><img src="http://oyokglrrx.bkt.clouddn.com/Git-path-setting.png" alt=""></p>
-<p>安装完成后查看git是否安装成功，打开命令行输入 ： git –version</p>
-<p><img src="http://oyokglrrx.bkt.clouddn.com/git_test1.png" alt=""></p>
-<h2 id="node-js下载安装"><a href="#node-js下载安装" class="headerlink" title="node.js下载安装"></a>node.js下载安装</h2><p>####node.js下载安装####</p>
-<p><img src="http://oyokglrrx.bkt.clouddn.com/Nodejs-install.png" alt=""></p>
-<p>####node.js测试安装界面####</p>
-<p><img src="http://oyokglrrx.bkt.clouddn.com/nodetest.png" alt=""></p>
-<p>如果出现上述类似图则说明安装正确，如果不正确，返回检查安装过程</p>
-<h2 id="github"><a href="#github" class="headerlink" title="github"></a>github</h2><p>没申请的赶紧申请吧，申请的用户名很重要</p>
-<p>登录github后选择 new repository </p>
-<p><img src="http://oyokglrrx.bkt.clouddn.com/github_new.png" alt=""></p>
-<p>repository的名字一定要和前面的名字一样，类似我的用户名是Hllele，后面新建名字是Hllele.github.io</p>
-<p><img src="http://oyokglrrx.bkt.clouddn.com/github_name.png" alt=""></p>
-<p>使用github账号登录Git</p>
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2017-11-03T14:24:33+08:00"
+              content="2017-11-03" >
+          11-03
+        </time>
+      </div>
 
-          
-        
+    </header>
+  </article>
+
+
       
     </div>
-    
-    
-    
 
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
   </div>
   
   
   
-  </article>
-
-
-    
-  </section>
 
   
 
