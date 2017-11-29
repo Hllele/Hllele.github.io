@@ -79,18 +79,18 @@
 
 
 
-<meta name="description" content="React Native学习(1)   搭建环境（win7系统下搭建RN环境）">
+<meta name="description" content="(记录一下过程) 搭建开发环境（win7系统下搭建RN环境） 安装python 2点击python下载安装或者搜索python下载安装教程 安装配置node在我的个人搭建博客有node.js安装过程活百度 安装成功后进入命令行输入 npm config set registry https://registry.npm.taobao.org --global npm config set dist">
 <meta name="keywords" content="react native">
 <meta property="og:type" content="article">
 <meta property="og:title" content="React Native学习(1)">
 <meta property="og:url" content="http://yoursite.com/2017/11/29/RN1/index.html">
 <meta property="og:site_name" content="Just do it!">
-<meta property="og:description" content="React Native学习(1)   搭建环境（win7系统下搭建RN环境）">
+<meta property="og:description" content="(记录一下过程) 搭建开发环境（win7系统下搭建RN环境） 安装python 2点击python下载安装或者搜索python下载安装教程 安装配置node在我的个人搭建博客有node.js安装过程活百度 安装成功后进入命令行输入 npm config set registry https://registry.npm.taobao.org --global npm config set dist">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-11-29T07:02:13.699Z">
+<meta property="og:updated_time" content="2017-11-29T07:21:34.043Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="React Native学习(1)">
-<meta name="twitter:description" content="React Native学习(1)   搭建环境（win7系统下搭建RN环境）">
+<meta name="twitter:description" content="(记录一下过程) 搭建开发环境（win7系统下搭建RN环境） 安装python 2点击python下载安装或者搜索python下载安装教程 安装配置node在我的个人搭建博客有node.js安装过程活百度 安装成功后进入命令行输入 npm config set registry https://registry.npm.taobao.org --global npm config set dist">
 
 
 
@@ -310,11 +310,23 @@
       
 
       
-        <h1 align="center">React Native学习(1)</h1>
-
-
-<h1 id="搭建环境"><a href="#搭建环境" class="headerlink" title="搭建环境"></a>搭建环境</h1><p>（win7系统下搭建RN环境）</p>
-
+        <p>(记录一下过程)</p>
+<h1 id="搭建开发环境"><a href="#搭建开发环境" class="headerlink" title="搭建开发环境"></a>搭建开发环境</h1><p>（win7系统下搭建RN环境）</p>
+<h2 id="安装python-2"><a href="#安装python-2" class="headerlink" title="安装python 2"></a>安装python 2</h2><p>点击<a href="https://www.python.org/" target="_blank" rel="external">python</a>下载安装或者搜索python下载安装教程</p>
+<h2 id="安装配置node"><a href="#安装配置node" class="headerlink" title="安装配置node"></a>安装配置node</h2><p>在我的<a href="https://hllele.github.io/2017/11/03/hexo+git+next%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" target="_blank" rel="external">个人搭建博客</a>有node.js安装过程活百度</p>
+<p>安装成功后进入命令行输入</p>
+<pre><code>npm config set registry https://registry.npm.taobao.org --global
+npm config set disturl https://npm.taobao.org/dist --global
+</code></pre><h2 id="下载配置Yarn、React-Native的命令行工具"><a href="#下载配置Yarn、React-Native的命令行工具" class="headerlink" title="下载配置Yarn、React Native的命令行工具"></a>下载配置Yarn、React Native的命令行工具</h2><p>命令行</p>
+<pre><code>npm install -g yarn react-native-cli
+</code></pre><p>安装完yarn后同理也要设置镜像源：</p>
+<pre><code>yarn config set registry https://registry.npm.taobao.org --global
+yarn config set disturl https://npm.taobao.org/dist --global
+</code></pre><h2 id="JDK下载安装配置，Android-Studio下载安装配置"><a href="#JDK下载安装配置，Android-Studio下载安装配置" class="headerlink" title="JDK下载安装配置，Android Studio下载安装配置"></a>JDK下载安装配置，Android Studio下载安装配置</h2><p>最后测试安装</p>
+<pre><code>react-native init AwesomeProject
+cd AwesomeProject
+react-native run-android
+</code></pre>
       
     </div>
     
@@ -495,7 +507,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#undefined"><span class="nav-number">1.</span> <span class="nav-text">React Native学习(1)</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#搭建环境"><span class="nav-number">2.</span> <span class="nav-text">搭建环境</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#搭建开发环境"><span class="nav-number">1.</span> <span class="nav-text">搭建开发环境</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#安装python-2"><span class="nav-number">1.1.</span> <span class="nav-text">安装python 2</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装配置node"><span class="nav-number">1.2.</span> <span class="nav-text">安装配置node</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#下载配置Yarn、React-Native的命令行工具"><span class="nav-number">1.3.</span> <span class="nav-text">下载配置Yarn、React Native的命令行工具</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#JDK下载安装配置，Android-Studio下载安装配置"><span class="nav-number">1.4.</span> <span class="nav-text">JDK下载安装配置，Android Studio下载安装配置</span></a></li></ol></li></ol></div>
             
 
           </div>
